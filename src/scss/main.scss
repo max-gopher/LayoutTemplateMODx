@@ -1,0 +1,19 @@
+/* Основные */
+@import 'common/variables';
+@import 'common/fonts';
+@import 'common/normalize';
+
+/* Миксины */
+
+/* Части страниц */
+@import 'layout/header';
+@import 'layout/footer';
+
+/* Компоненты */
+@import 'components/buttons';
+
+/* Страницы */
+@import 'pages/index';
+
+// Всегда последние
+@import 'media/responsive';
