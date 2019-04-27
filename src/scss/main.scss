@@ -6,12 +6,13 @@
 
 /* Миксины */
 
+/* Компоненты */
+@import 'components/buttons';
+@import 'components/icons';
+
 /* Части страниц */
 @import 'layout/header';
 @import 'layout/footer';
-
-/* Компоненты */
-@import 'components/buttons';
 
 /* Страницы */
 @import 'pages/index';
