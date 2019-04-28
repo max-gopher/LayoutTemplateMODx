@@ -141,6 +141,7 @@
 ``` 
 Приятного использования!
 
-####Благодарность:
+Благодарность
+-------------
 
 Не было бы этого шаблона без этих ребят: [optimizedhtml-start-template](https://github.com/agragregra/optimizedhtml-start-template)
