@@ -6,8 +6,8 @@
 
 Так же глобально должны быть установленны:
 
-* [Gulp](https://gulpjs.com/): `npm i gulp -g` 
-* [Bower](https://bower.io/): `mpn i bower -g`
+* [Gulp](https://gulpjs.com/): `npm i gulp -g` - используем для сборки
+* [Bower](https://bower.io/): `mpn i bower -g` - используем для установки дополнительных библиотек. Сразу устанавливает в `src/libs`.
 
 Пример использования
 --------------------
