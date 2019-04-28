@@ -1,5 +1,13 @@
-/* Основные */
+/* Переменные */
 @import 'common/variables';
+
+/* Libs */
+@import '../libs/components-font-awesome/scss/fontawesome';
+@import '../libs/components-font-awesome/scss/fa-regular';
+@import '../libs/components-font-awesome/scss/fa-solid';
+@import '../libs/components-font-awesome/scss/fa-brands';
+
+/* Основные */
 @import 'common/fonts';
 @import 'common/normalize';
 @import 'common/typography';

@@ -1,5 +1,37 @@
-.icon {
-  &.--tvit {}
-  &.--fb {}
-  &.--vk {}
+/* Project Icons */
+.p-icon {
+  @extend %fa-icon;
+  vertical-align: baseline;
+  &.--callback {
+    @extend .fas;
+    transform: rotate(95deg);
+    margin-right: 15px;
+    &::before {
+      content: fa-content($fa-var-phone);
+    }
+  }
+  &.--user {
+    @extend .fas;
+    &::before {
+      content: fa-content($fa-var-user);
+    }
+  }
+  &.--twit {
+    @extend .fab;
+    &::before {
+      content: fa-content($fa-var-twitter);
+    }
+  }
+  &.--fb {
+    @extend .fab;
+    &::before {
+      content: fa-content($fa-var-facebook);
+    }
+  }
+  &.--vk {
+    @extend .fab;
+    &::before {
+      content: fa-content($fa-var-vk);
+    }
+  }
 }

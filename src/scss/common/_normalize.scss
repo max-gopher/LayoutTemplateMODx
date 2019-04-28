@@ -109,3 +109,9 @@ body {
   margin: 0 auto;
   padding: $base-padding;
 }
+.template {
+  padding: $base-template-padding;
+  &__block {
+    @extend .container;
+  }
+}
